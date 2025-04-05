@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: url('https://github-production-user-asset-6210df.s3.amazonaws.com/110827553/430216197-3d5cedd2-596b-47ef-89a6-c36d12c1ca4b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250404%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250404T035741Z&X-Amz-Expires=300&X-Amz-Signature=212bcf864daaec4e9a636422dc1e76696eed96f3b41b9985d6cd4aa3c654665e&X-Amz-SignedHeaders=host')  repeat;
+  background: url('/imagens/backgraund.png')  repeat;
     background-size: 25%;
     background-position: top left;
     width: 100%;
