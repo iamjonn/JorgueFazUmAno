@@ -46,7 +46,7 @@ function enviarParaWhatsApp() {
   
   mensagem += ` Amei o convite! %E2%9D%A4%EF%B8%8F`;
   
-  const numero = '5583986526513';
+  const numero = '5583986667819';
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
   window.location.href = url;
 }
