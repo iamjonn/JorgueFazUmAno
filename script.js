@@ -44,7 +44,7 @@ function enviarParaWhatsApp() {
       mensagem += ` E quem vai comigo são: ${listaAcompanhantes.join(', ')}.`;
   }
   
-  mensagem += ` Amei o convite! %E2%9D%A4%EF%B8%8F`;
+  mensagem += ` Amei o convite!`;
   
   const numero = '5583986667819';
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
