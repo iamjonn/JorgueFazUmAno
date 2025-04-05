@@ -1,0 +1,74 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: url('https://github-production-user-asset-6210df.s3.amazonaws.com/110827553/430216197-3d5cedd2-596b-47ef-89a6-c36d12c1ca4b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250404%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250404T035741Z&X-Amz-Expires=300&X-Amz-Signature=212bcf864daaec4e9a636422dc1e76696eed96f3b41b9985d6cd4aa3c654665e&X-Amz-SignedHeaders=host')  repeat;
+    background-size: 25%;
+    background-position: top left;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.container {
+  max-width: 800px;
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color:rgb(169, 0, 56);
+}
+
+h2 {
+  color: #3f51b5;
+}
+
+.mensagem {
+  margin: 1rem 0;
+  font-size: 1.1em;
+}
+
+.botoes img {
+  padding: 10px 2px;
+  cursor: pointer;
+}
+
+
+.presentes {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.presentes ul {
+  padding-left: 20px;
+}
+
+.escondido {
+  display: none;
+}
+.presenca { max-width: 400px; margin: auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); text-align: left; }
+label { display: block; margin-top: 10px; font-weight: bold; }
+input { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; }
+.button-container { display: flex; align-items: center; gap: 10px; }
+.add-button { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: #f2f2f2;
+   border: none; 
+   border-radius: 6px;
+    padding: 8px; 
+    cursor: pointer;
+     font-size: 16px;
+     margin: 10px;
+     }
+.confirm-button { width: 100%; padding: 10px; background: #d3d3d3; color: #fff; border: none; border-radius: 6px; font-size: 16px; cursor: not-allowed; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.confirm-button.enabled { background:rgb(161, 0, 0); cursor: pointer; }

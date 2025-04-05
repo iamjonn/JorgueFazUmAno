@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ano do Jorge Miguel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="/imagens/image.png" alt="">
+
+    <div class="botoes">
+      <img src="/imagens/presente.png" onclick="mostrar('presentes')"alt="">
+      <img src="/imagens/presença.png" onclick="mostrar('presenca')" alt="">
+      <img src="/imagens/mapa.png" onclick="window.open('https://www.google.com/maps?q=Game+Station,+Mangabeira+Shopping,+João+Pessoa,+PB','_blank')" alt="">
+    </div>
+
+    <div id="presentes" class="presentes escondido">
+      <h3>Sugestões de Presentes</h3>
+      <ul>
+        <li>Roupinhas tamanho: 18 meses / 2 anos</li>
+        <li>Calçados tamanho: 21 ou 22</li>
+        <li>Brinquedos montessori, educativos ou musicais com efeito sonoro</li>
+        <li>Cosméticos e perfumaria sem restrição de fragrância</li>
+      </ul>
+    </div>
+    <div id="presenca" class="presenca escondido">
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" placeholder="Nome e sobrenome" oninput="validarFormulario()">
+      
+      <label>Acompanhantes:</label>
+      <div id="acompanhantes-container"></div>
+      <button type="button" class="add-button" onclick="adicionarAcompanhante()">➕ Adicionar</button>
+      
+      <button id="confirmar" class="confirm-button" onclick="enviarParaWhatsApp()" disabled>
+          👤 Confirmar presença
+      </button>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
