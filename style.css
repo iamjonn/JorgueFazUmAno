@@ -123,7 +123,7 @@ input {
 }
 
 .confirm-button.enabled {
-  background: rgb(161, 0, 0);
+  background: #ff7800cc;
   cursor: pointer;
 }
 
